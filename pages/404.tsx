@@ -26,7 +26,7 @@ export default function Custom404() {
             <h3 className="mt-1.5 text-xl font-semibold text-gray-900 tracking-tight">
               404 - Not found
             </h3>
-            <p className="mt-1.5 mx-auto xxs:w-64 text-gray-600">
+            <p className="mt-1.5 mx-auto xs:w-64 text-gray-600">
               Sorry, the page you are looking for does not exist.
             </p>
             <div className="mt-5 flex flex-col sm:flex-row justify-center gap-x-3">

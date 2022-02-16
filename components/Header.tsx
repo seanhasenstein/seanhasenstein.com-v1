@@ -42,12 +42,12 @@ export default function Header() {
           </Link>
         </div>
         <nav>
-          <ul className="pb-6 w-full inline-flex justify-center gap-x-8 xxs:gap-11">
+          <ul className="pb-6 w-full inline-flex justify-center gap-x-8 xs:gap-11">
             {navItems.map((item) => (
               <li key={item.id}>
                 <Link href={item.href}>
                   <a
-                    className={`text-sm xxs:text-base leading-6 text-gray-900 hover:text-black hover:underline focus:outline-none focus-visible:text-indigo-600 focus-visible:underline${
+                    className={`text-sm xs:text-base leading-6 text-gray-900 hover:text-black hover:underline focus:outline-none focus-visible:text-indigo-600 focus-visible:underline${
                       isActivePage(router.pathname, item.text)
                         ? " underline"
                         : ""

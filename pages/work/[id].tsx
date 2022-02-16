@@ -47,7 +47,7 @@ export default function Example() {
               <h3 className="mt-1.5 text-xl font-semibold text-gray-900 tracking-tight">
                 Example not found
               </h3>
-              <p className="mt-1.5 mx-auto xxs:w-64 text-gray-600">
+              <p className="mt-1.5 mx-auto xs:w-64 text-gray-600">
                 The example you are looking for does not exist.
               </p>
               <div className="mt-5 flex flex-col sm:flex-row justify-center gap-x-3">
@@ -119,7 +119,7 @@ export default function Example() {
                   <h3 className="text-lg font-semibold text-gray-900">
                     Colors
                   </h3>
-                  <div className="mt-2 grid grid-cols-3 xxs:flex xxs:justify-between md:justify-start gap-y-4 gap-x-2.5">
+                  <div className="mt-2 grid grid-cols-3 xs:flex xs:justify-between md:justify-start gap-y-4 gap-x-2.5">
                     {data.colors.map((c) => (
                       <div key={c} className="w-full md:w-auto">
                         <span
@@ -158,19 +158,16 @@ export default function Example() {
               <div>
                 <div className="flex object-cover border border-black/8 shadow-sm rounded-sm">
                   {data && (
-                    <Image
+                    <img
                       src={data.images[primaryImgIndex]}
-                      alt={`Macaport mockup photo ${primaryImgIndex + 1} of ${
+                      alt={`Macaport mockup ${primaryImgIndex + 1} of ${
                         data.images.length
                       }`}
-                      width={900}
-                      height={563}
-                      quality={100}
                       className="rounded-sm"
                     />
                   )}
                 </div>
-                <div className="mt-2.5 grid grid-cols-6 gap-2">
+                <div className="mt-2.5 grid grid-cols-3 gap-2">
                   {data.images?.map((image, index) => (
                     <button
                       key={image}

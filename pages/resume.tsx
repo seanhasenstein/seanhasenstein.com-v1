@@ -45,8 +45,8 @@ export default function Resume() {
                     key={e.id}
                     className="mt-7 first:mt-0 text-sm text-gray-600"
                   >
-                    <div className="flex flex-col xxs:flex-row xxs:justify-between">
-                      <p className="xxs:pr-4 text-gray-900 font-medium leading-tight">
+                    <div className="flex flex-col xs:flex-row xs:justify-between">
+                      <p className="xs:pr-4 text-gray-900 font-medium leading-tight">
                         {e.title}
                       </p>
                       <p className="mt-0.5 flex-shrink-0 text-xs text-gray-800">

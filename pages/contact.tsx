@@ -136,7 +136,7 @@ export default function Contact() {
                       />
                     </div>
                   </div>
-                  <div className="mt-5 grid grid-col-1 xxs:grid-cols-2 gap-4">
+                  <div className="mt-5 grid grid-col-1 sm:grid-cols-2 gap-4">
                     <div>
                       <label
                         htmlFor="email"
