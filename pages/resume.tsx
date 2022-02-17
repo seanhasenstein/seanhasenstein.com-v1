@@ -10,8 +10,8 @@ import {
 export default function Resume() {
   return (
     <Layout>
-      <div className="mt-6 mx-auto py-6 px-7  sm:p-12 max-w-3xl bg-white border border-gray-900/10 shadow-2xl shadow-black/10 rounded-sm">
-        <div className="mb-3 md:mb-8 flex flex-col md:flex-row justify-between">
+      <div className="relative mt-6 mx-auto py-6 px-7  sm:p-12 max-w-3xl bg-white border border-gray-900/10 shadow-2xl shadow-black/10 rounded-sm">
+        <div className="mb-3 sm:mb-8 flex flex-col sm:flex-row justify-between">
           <div className="mb-4">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 leading-none">
               Sean Hasenstein
@@ -20,17 +20,17 @@ export default function Resume() {
               Web Developer
             </p>
           </div>
-          <div className="hidden mb-4 pt-4 md:flex flex-col items-end justify-end text-sm text-gray-500">
-            <p>
+          <div className="hidden mb-4 pt-4 sm:flex flex-col items-end justify-end text-sm text-gray-500">
+            <div className="absolute top-5 right-6">
               <a
                 href="https://res.cloudinary.com/dra3wumrv/image/upload/v1645076069/resume-sean-hasenstein-02-15-22.pdf"
                 target="_blank"
                 rel="noreferrer"
+                className="inline-flex items-center px-2.5 py-1.5 border border-gray-300 shadow-sm text-xs font-medium rounded text-gray-700 bg-white hover:border-gray-400/75 hover:text-black focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-indigo-500"
               >
                 Print version
               </a>
-            </p>
-            <p>seanhasenstein.com</p>
+            </div>
             <p>
               <a
                 href="mailto:jobs@seanhasenstein.com"
