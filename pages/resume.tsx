@@ -21,16 +21,28 @@ export default function Resume() {
             </p>
           </div>
           <div className="hidden mb-4 pt-4 sm:flex flex-col items-end justify-end text-sm text-gray-500">
-            <div className="absolute top-5 right-6">
-              <a
-                href="https://res.cloudinary.com/dra3wumrv/image/upload/v1645076069/resume-sean-hasenstein-02-15-22.pdf"
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center px-2.5 py-1.5 border border-gray-300 shadow-sm text-xs font-medium rounded text-gray-700 bg-white hover:border-gray-400/75 hover:text-black focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-indigo-500"
+            <a
+              href="https://res.cloudinary.com/dra3wumrv/image/upload/v1645076069/resume-sean-hasenstein-02-15-22.pdf"
+              target="_blank"
+              rel="noreferrer"
+              className="absolute top-4 right-4 h-9 w-9 inline-flex justify-center items-center border border-gray-200 shadow-sm text-xs font-medium rounded text-gray-500 bg-white hover:border-gray-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-indigo-500"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
               >
-                Print version
-              </a>
-            </div>
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"
+                />
+              </svg>
+              <span className="sr-only">Print version</span>
+            </a>
             <p>
               <a
                 href="mailto:jobs@seanhasenstein.com"
