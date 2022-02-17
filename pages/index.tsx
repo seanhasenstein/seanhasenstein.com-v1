@@ -11,8 +11,8 @@ export default function Home() {
           <div className="flex justify-center">
             <Image
               src={profilePicture}
-              height={64}
-              width={64}
+              height={80}
+              width={80}
               quality={100}
               alt="Sean Hasenstein smiling"
               className="rounded-full"

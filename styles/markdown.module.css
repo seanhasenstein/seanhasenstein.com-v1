@@ -1,0 +1,23 @@
+.markdown {
+  @apply mt-8;
+}
+
+.markdown h3 {
+  @apply mb-1.5 text-lg font-semibold text-gray-900;
+}
+
+.markdown h4 {
+  @apply mt-8 text-lg font-semibold text-gray-900;
+}
+
+.markdown p {
+  @apply mb-4 text-sm text-gray-600;
+}
+
+.markdown ul {
+  @apply my-0 pl-4;
+}
+
+.markdown li {
+  @apply mt-2.5 first:mt-1.5 pl-1 text-sm text-gray-800 list-disc;
+}

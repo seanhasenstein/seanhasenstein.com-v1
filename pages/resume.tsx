@@ -21,6 +21,15 @@ export default function Resume() {
             </p>
           </div>
           <div className="hidden mb-4 pt-4 md:flex flex-col items-end justify-end text-sm text-gray-500">
+            <p>
+              <a
+                href="https://res.cloudinary.com/dra3wumrv/image/upload/v1645076069/resume-sean-hasenstein-02-15-22.pdf"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Print version
+              </a>
+            </p>
             <p>seanhasenstein.com</p>
             <p>
               <a

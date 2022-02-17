@@ -1,5 +1,3 @@
-import { ReactNode } from "react";
-
 export type Stack =
   | "React"
   | "TypeScript"
@@ -11,15 +9,16 @@ export type Stack =
   | "Gatsby"
   | "WordPress";
 
-export type Work = {
-  id: string;
+export type Example = {
+  number: number;
+  slug: string;
   title: string;
-  tagline: string;
+  tag: string;
+  categories: string[];
   stack: Stack[];
   images: string[];
-  tags: string[];
   colors: string[];
-  liveUrl?: string;
+  website?: string;
   github?: string;
-  description: ReactNode;
+  content: string;
 };
