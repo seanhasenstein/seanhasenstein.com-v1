@@ -4,7 +4,7 @@ title: "Officials Connection"
 slug: "officials-connection"
 tag: "Basketball Officials Camps"
 categories: ["marketing", "e-commerce"]
-website: "https://officials-connection.com/"
+website: "https://officialsconnection.org/"
 github: "https://github.com/seanhasenstein/officials-connection"
 colors: ["#ffffff", "#e8edf1", "#be123c", "#0369a1", "#1f2838"]
 stack: ["React", "TypeScript", "Next.js", "MongoDb", "Stripe", "Vercel"]
