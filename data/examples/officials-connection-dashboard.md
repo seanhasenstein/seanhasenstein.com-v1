@@ -20,7 +20,7 @@ images:
 
 ### Description
 
-I created this dashboard to manage API's for camp registrations and camp scheduling. The dashboard data is connected to an e-commerce platform that I also built.
+I created this dashboard to manage API's for camp registrations and camp scheduling. The dashboard data is connected to an e-commerce platform that I also built for Officials Connection.
 
 #### Store Features
 

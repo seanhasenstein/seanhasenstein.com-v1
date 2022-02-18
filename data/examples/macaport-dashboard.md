@@ -22,7 +22,7 @@ images:
 
 Macaport approached me for an e-commerce platform for their screen printing business. After discussing their needs I built them an e-commerce website and also this dashboard.
 
-The dashboard gives Macaport the ability to manage their API's for inventory, stores, products, and orders.
+The dashboard gives Macaport the ability to manage their API's for inventory, stores, products, and orders that are used on the e-commerce website.
 
 #### Store Features
 

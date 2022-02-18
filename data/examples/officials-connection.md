@@ -22,9 +22,9 @@ images:
 
 ### Description
 
-I have been working with the the Wisconsin Basketball Yearbook Officials Camps since 2015. We use officialsconnection.org for marketing and registration.
+I have been working with the the Wisconsin Basketball Yearbook Officials Camps since 2015. We use officialsconnection.org for marketing and camp registrations.
 
-Along with the website I also created a dashboard that manages their registration and scheduling API's. And finally I created a Node.js server that uses Mailgun for email marketing campaigns.
+I also built a dashboard that manages the registration and scheduling API's. Along with the dashboard I created a Node.js server that I use with Mailgun for email marketing campaigns.
 
 #### Store Features
 

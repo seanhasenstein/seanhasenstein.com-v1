@@ -21,9 +21,9 @@ images:
 
 ### Description
 
-Macaport approached me looking for an e-commerce platform for their screen printing business. After discussing their needs I built an e-commerce Next.js app and a dashboard to manage the API's for inventory, stores, products, and orders.
+Macaport approached me looking for an e-commerce platform for their screen printing business. After discussing their needs I built an e-commerce website and also a dashboard to manage the API's for inventory, stores, products, and orders.
 
-The website gives Macaport's clients the ability to sell screen printed products to their groups, businesses, teams, organizations, etc.
+This e-commerce website gives Macaport's clients the ability to sell screen printed products to their groups, businesses, teams, organizations, etc.
 
 #### Store Features
 
