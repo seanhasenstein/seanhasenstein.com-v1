@@ -104,7 +104,7 @@ export default function Contact() {
                 <span className="underline">full time job</span> opportunities.
                 Feel free to use this form or{" "}
                 <a
-                  href="mailto:hey@seanhasenstein.com"
+                  href="mailto:seanhasenstein@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="underline hover:text-indigo-600"

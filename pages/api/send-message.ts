@@ -23,7 +23,7 @@ export default async function handler(
   const text = createEmailText(message);
 
   await sendEmail({
-    to: "hey@seanhasenstein.com",
+    to: "seanhasenstein@gmail.com",
     from: "seanhasenstein.com<contact@seanhasenstein.com>",
     subject: `Contact form message [#${id}]`,
     replyTo: message.email,
