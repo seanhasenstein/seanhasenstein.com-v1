@@ -1,5 +1,8 @@
+import * as dotenv from "dotenv";
 import FormData from "form-data";
 import fetch from "node-fetch";
+
+dotenv.config();
 
 const AUTHTOKEN = `Basic ${Buffer.from(
   `api:${process.env.MAILGUN_API_KEY}`
