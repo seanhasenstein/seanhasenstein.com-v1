@@ -27,7 +27,7 @@ export default async function handler(
     from: "seanhasenstein.com<contact@seanhasenstein.com>",
     subject: `Contact form message [#${id}]`,
     replyTo: message.email,
-    bcc: "seanhasenstein@gmail",
+    bcc: "seanhasenstein@gmail.com",
     text,
   });
 
